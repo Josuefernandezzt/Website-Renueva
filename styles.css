@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.Header {
+    padding:10px;
+    background:rgb(239, 239, 240);
+    height:300px; 
+    text-align: center;
+}
+
+.Header-content{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.Header-items ul  {
+    display: flex;
+    list-style: none;
+}
+.Header-items li {
+    margin-right: 15px;
+}
+.Header-media ul{
+    display: flex;
+    list-style: none;
+    padding:0 0 0 15px;        
+}
+.Header-media li{
+    margin-right: 15px;
+}
+.Header-logo{
+   margin-top: 70px;
+}
+
+.Products{
+    margin-top: 20px;
+    width: 100%;
+}
+.products-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Recetas{
+    margin-top:20px;
+    height:250px;
+    background-image: url(./img/veganFood.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.Recetas-opacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+.MoreProducts{
+    margin-top:20px;
+    height:250px;
+    background-image: url(./img/coco.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.MoreProducts-opacity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.4);
+}
+
+
+.Footer{
+    background:rgb(239, 239, 240);
+    height: 300px;
+
+}
+.Footer-media{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;    
+    height:60px;
+}
+ul:nth-child(1){
+    margin-top: 40px;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+li{
+    margin-right: 20px;
+}
+.Footer-logo{
+    margin: 30px 0 400px 0;
+    text-align: center;
+}

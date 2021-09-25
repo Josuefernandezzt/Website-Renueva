@@ -1,0 +1,15 @@
+{
+  "name": "renueva",
+  "version": "1.0.0",
+  "description": "Empresa de yogures",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javaScript",
+    "website"
+  ],
+  "author": "Josué Fernández torres",
+  "license": "ISC"
+}
